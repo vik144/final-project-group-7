@@ -1,4 +1,5 @@
 import React from "react";
+import about from "../assets/images/about.jpg";
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
       <p class="abt-content">At Winx Design Agency, we believe in the power of collaboration. Our collaborative approach ensures that every project benefits from diverse perspectives and expertise, resulting in solutions that not only look great but also function seamlessly across various platforms.</p>
 
       <p class="abt-content">Whether you're looking for a stunning website, engaging branding, or innovative digital solutions, Winx Design Agency is here to transform your vision into reality. Let's create something remarkable together!</p>
-      <img src="../src/assets/images/about.jpg" class="about"></img>
+      <img src={about} class="about"></img>
     </div>
   );
 }
