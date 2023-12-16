@@ -1,3 +1,6 @@
+import service1 from "../assets/images/service1.jpg";
+import service2 from "../assets/images/service2.jpg";
+import service3 from "../assets/images/service3.jpg";
 export default function Home() {
   return (
     <div className="page-container">
@@ -10,15 +13,15 @@ export default function Home() {
 
       <section class="home-services">
         <div class="home-service-card">
-          <img src="../src/assets/images/service1.jpg" alt="Service 1"></img>
+          <img src={service1} alt="Service 1"></img>
           <h2>Web design</h2>
         </div>
         <div class="home-service-card">
-          <img src="../src/assets/images/service2.jpg" alt="Service 2"></img>
+          <img src={service2} alt="Service 2"></img>
           <h2>Branding</h2>
         </div>
         <div class="home-service-card">
-          <img src="../src/assets/images/service3.jpg" alt="Service 3"></img>
+          <img src={service3} alt="Service 3"></img>
           <h2>Logo Design</h2>
         </div>
       </section>
